@@ -13,7 +13,7 @@ from sklearn.model_selection import KFold
 import matplotlib.pyplot as plt
 from scipy.ndimage import distance_transform_edt, binary_erosion
 
-from dataset_ucsf import make_metadata_dataset  # K=5: [tumor, anat1, anat2, anat3, background]
+from dataset import make_metadata_dataset  # K=5: [tumor, anat1, anat2, anat3, background]
 
 # ============================================================
 # Utils
